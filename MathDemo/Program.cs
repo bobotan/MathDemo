@@ -100,7 +100,8 @@ namespace MathDemo
             double mb_val = Math.Sqrt(mb_x * mb_x + mb_y * mb_y);
             double cosM = v1 / (ma_val * mb_val);
             double angleAMB = Math.Acos(cosM) * 180 / Math.PI;
-
+             
+            
             return angleAMB;
         }
 
